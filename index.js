@@ -2,10 +2,10 @@ const edadDelUsuario= 12
 
 const filtrandoLaEdadDelUsuario = (edad) => {
     if (edad >= 18) {
-    return true
+    return "Es positivo"
     }
     else {
-    return false
+    return "Es negativo"
     }
 }
 
