@@ -30,6 +30,10 @@ const avanzarSemaforo = (colorAcutal) => {
     else if (colorAcutal = "amarillo") {
         return "rojo"
     }
+    
+    else {
+        return "ese color no aplica"
+    }
 }
 
 alert (avanzarSemaforo ("verde"))
