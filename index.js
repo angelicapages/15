@@ -19,15 +19,15 @@ alert (filtrandoLaEdadDelUsuario (40))
 
 const avanzarSemaforo = (colorAcutal) => {
 
-    if (colorAcutal = "verde") {
+    if (colorAcutal == "verde") {
     return "amarillo"
     }
 
-    else if (colorAcutal = "rojo") {
+    else if (colorAcutal == "rojo") {
     return "verde"
     }
 
-    else if (colorAcutal = "amarillo") {
+    else if (colorAcutal == "amarillo") {
         return "rojo"
     }
     
