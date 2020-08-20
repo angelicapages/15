@@ -43,7 +43,7 @@ alert (avanzarSemaforo ("amarillo"))
 //EJERCICIO 3
 
 const esConsonante = (letra) => {
-    if (letra !== letra =="a" || letra== "e" || letra== "i" || letra== "o" || letra== "u") {
+    if (letra =="a" || letra== "e" || letra== "i" || letra== "o" || letra== "u") {
     return "no es consonante"
     }
     else {
